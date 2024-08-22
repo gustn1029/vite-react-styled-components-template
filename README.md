@@ -6,8 +6,11 @@
 - 기능: React, Javascript, styled-reset, styled-components,gh-pages(GitHub Pages 배포)
 
 ## 배포 방법
+- vite.config.js에서 base를 본인 레포지토리로 변경
+- package.json "hompage" 부분을 "본인 GitHub Pages로 변경"
 - 레포지토리 생성
 - 변경 내용 커밋, 푸시
 - npm run build 실행
 - npm run predeploy 실행
 - npm run deploy 실행
+- 레포지토리 Settings -> Pages -> Branch gh-pages로 변경 후 Save
